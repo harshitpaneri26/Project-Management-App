@@ -1,0 +1,94 @@
+/* Section */
+
+.grid-container {
+    width: 100%;
+}
+
+.left-container {
+    background-color: #121212;
+    color: white;
+    height: 100vh;
+}
+
+.right-container {
+    height: 100vh;
+}
+
+.input-btn {
+    margin: 3rem;
+}
+
+
+/* Project Cards */
+
+.card {
+    display: none;
+    padding: 0.5rem;
+    width: 18rem;
+    height: 12rem;
+    box-shadow: 1px 8px 6px 2px rgb(213 213 242);
+}
+
+.card a {
+    text-decoration: none;
+    color: black;
+}
+
+#projectCard {
+    display: flex;
+    flex-flow: row wrap;
+    gap: 2rem;
+}
+
+.fa-trash {
+    padding: 0.7rem;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    cursor: pointer;
+}
+
+
+/* List-container */
+
+.List-container {
+    margin: 4rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.List-container li {
+    text-align: left;
+    line-height: 2.5rem;
+    cursor: pointer;
+    color: #f1f2f1;
+}
+
+
+/* projectAlert */
+
+#projectAlert {
+    margin-top: 2rem;
+    display: none;
+    transition: 0.5s all;
+}
+
+.closebtn {
+    margin-left: 15px;
+    color: white;
+    font-weight: bold;
+    float: right;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+
+/* When moving the mouse over the close button */
+
+.closebtn:hover {
+    color: black;
+}
+
+.remove {
+    opacity: 0;
+}
