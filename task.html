@@ -30,7 +30,55 @@
         </div>
     </nav>
 
-    <script src="./scripts/task.js"></script>
+
+    <!-- Project section -->
+    <section class="container project-container">
+
+        <form method="get">
+            <h2 class="text-center">Project Details</h2>
+
+            <!-- Project title -->
+            <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label">Project title: </label>
+                <input id="Projecttitle" type="text" class="form-control" id="exampleFormControlInput1" placeholder="Project title">
+            </div>
+
+            <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label">Project Name: </label>
+                <input id="projectName" type="text" class="form-control" id="exampleFormControlInput1" placeholder="Project Name">
+            </div>
+
+            <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label">technology: </label>
+                <input id="technology" type="text" class="form-control" id="exampleFormControlInput1" placeholder="technology's that you have used in the project">
+            </div>
+
+
+            <div class="mb-3">
+                <label for="exampleFormControlTextarea1" class="form-label">Project Description: </label>
+                <textarea id="Description" class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
+
+            <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label">GitHub: </label>
+                <input id="GitHub" type="url" class="form-control" id="exampleFormControlInput1" placeholder="GitHub...">
+            </div>
+
+            <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label">deployed Link:</label>
+                <input id="deployed" type="url" class="form-control" id="exampleFormControlInput1" placeholder="deployed Link...">
+            </div>
+
+            <button type="button" class="btn btn-primary" id="addproject">Add project</button>
+
+        </form>
+
+    </section>
+
+
+    <section class="container Project-details"></section>
+
+    <script src="./scripts/task.js "></script>
 </body>
 
 </html>

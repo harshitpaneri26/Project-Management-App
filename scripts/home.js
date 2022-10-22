@@ -119,6 +119,8 @@ projectbtn.addEventListener("click", () => {
         // Delete Project.
         const trash = node.querySelector("#trash");
 
+        console.log("here" + trash);
+
         trash.addEventListener("click", () => {
             let res = confirm("Do you really want to delete!");
 

@@ -1,0 +1,20 @@
+/* project-container */
+
+.project-title {
+    margin-bottom: 1.5rem;
+}
+
+.project-container {
+    margin-top: 2rem;
+    padding: 3rem;
+    box-shadow: 1px 2px 6px 3px rgb(231, 231, 231);
+}
+
+.Project-details {
+    margin-top: 2rem;
+    padding-top: 5rem;
+}
+
+.projectdetails_card {
+    margin: 2.5rem 0;
+}

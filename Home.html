@@ -23,10 +23,16 @@
 
 <body>
 
-    <nav class="container-fluid navbar-dark bg-primary">
-        <div class="primary-container">
+    <nav class="container-fluid navbar-dark bg-primary row">
+        <div class="col primary-container">
             <i class="fa-solid fa-bars fa-2x" id="Hamburger-icon"></i>
             <a class="navbar-brand">Project Management App</a>
+        </div>
+
+        <div class="col-2 Allproject">
+            <a href="./task.html">
+                <button type="button" class="btn btn-light">Projects</button>
+            </a>
         </div>
     </nav>
 
@@ -38,7 +44,7 @@
         <div class="col-lg-8 right-container">
             <div class="row input-btn">
                 <div class="col col-lg-10">
-                    <input class="form-control form-control-lg" type="text" placeholder="Project Name..." aria-label=".form-control-lg example" id="Project_name">
+                    <input class="form-control form-control-lg" type="text" placeholder="Project title..." aria-label=".form-control-lg example" id="Project_name">
                 </div>
 
                 <div class="col col-lg-2">

@@ -5,9 +5,9 @@
 }
 
 .left-container {
-    background-color: #121212;
     color: white;
     height: 100vh;
+    background-color: #414141;
 }
 
 .right-container {
@@ -61,7 +61,7 @@
     text-align: left;
     line-height: 2.5rem;
     cursor: pointer;
-    color: #f1f2f1;
+    color: #fff;
 }
 
 
@@ -91,4 +91,13 @@
 
 .remove {
     opacity: 0;
+}
+
+
+/* All project */
+
+.Allproject {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
